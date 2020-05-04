@@ -78,15 +78,14 @@ section{
     color:#faa541;
 }
 .header-nav{
-    border-bottom-color: #a0a0a0;
-    border-bottom: 1px;
+    border-bottom: 1px solid #a0a0a0;
 
 }
 .brand{
     margin-left: -15px;
     margin-right: 60px;
-    height:170px;
-    width: 85px;
+    height:85px;
+    width: 170px;
     
 }
 .logo
@@ -95,17 +94,17 @@ section{
     height: auto;
 }
 .search-box{
-    height: 330;
-    width: 30;
+    height: 330px;
+    width: 30px;
     padding: 6px 12px;
-    border:1px  #a0a0a0;
+    border:1px solid #a0a0a0;
 
 }
 .search-button{
     background-color: #a0a0a0;
     color: #ffffff;
-    height: 100px;
-    width:30px;
+    height: 30px;
+    width:100px;
     border: 0;
     padding: 0;
 }
@@ -116,8 +115,9 @@ section{
     
 }
 .nav-list li a{
-    font: 16px uppercase;
-    width: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
     letter-spacing: 0.2px;
 }
 .profile{
@@ -129,12 +129,16 @@ section{
     font-size: 18px;
     color: #364147;
 }
-.account li a{
+.account  a{
     font-size: 14px;
 }
 .profile-pic{
-    height: 60;
-    width: 60;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    max-width: 100%;
+}
+.profile-pic img{
     border-radius: 100px;
     max-width: 100%;
 }
